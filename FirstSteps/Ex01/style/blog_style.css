@@ -1,6 +1,17 @@
 body {
-  border: solid 5px black;
   font-family: sans-serif;
+}
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.content-container {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid black 5px;
+  margin-top: 50px;
 }
 
 .title {
@@ -8,16 +19,19 @@ body {
   background-color: #f7f7f7;
   font-size: 33px;
   text-transform: uppercase;
+  margin: 15px 0;
 }
 
 .price {
   font-size: 26px;
+  margin: 20px 0px;
 }
 
 .shipping-text {
   font-family: cursive;
   color: #777;
   text-transform: uppercase;
+  margin-bottom: 5px;
 }
 
 a:hover,
@@ -34,11 +48,12 @@ a:active {
 button {
   color: white;
   background-color: black;
-  font-size: 26px;
-  margin: 4px;
+  font-size: 20px;
   cursor: pointer;
-  border: none;
   text-transform: uppercase;
+  padding: 20px;
+  width: 100%;
+  border-top: solid 5px black;
 }
 
 button:hover {
@@ -48,4 +63,10 @@ button:hover {
 
 .details-list {
   list-style-type: square;
+  margin-left: 50px;
+  margin-bottom: 18px;
+}
+
+h4 {
+  margin-bottom: 8px;
 }

@@ -1,7 +1,51 @@
+body {
+  position: relative;
+}
+
 h1,
 h2,
 h3 {
   color: rgb(29, 152, 234);
+}
+
+h1::first-letter {
+  font-style: normal;
+  margin-right: 5px;
+}
+
+h2 {
+  position: relative;
+}
+
+h2::after {
+  content: "TOP";
+  margin: 15px 20px;
+  background-color: #ee1313;
+  color: rgb(60, 60, 60);
+  font-size: 16px;
+  padding: 2px;
+  position: absolute;
+  top: -30%;
+  right: 42%;
+}
+
+.content-container {
+  width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a:link,
+a:active {
+  text-decoration: none;
+  font-family: sans-serif;
+  color: #777;
+  margin-left: 8px;
+  font-size: 20px;
+}
+
+a:hover {
+  color: #1098ad;
 }
 
 h1 {
@@ -60,4 +104,21 @@ li {
 
 .main-header {
   background-color: #f7f7f7;
+}
+
+.like-button {
+  padding: 15px 30px;
+  border: solid 1px #1098ad;
+  border-radius: 8px;
+  background-color: white;
+
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+}
+
+.like-button:hover {
+  background-color: #1098ad;
+  border: none;
+  cursor: pointer;
 }
