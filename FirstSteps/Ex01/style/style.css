@@ -17,7 +17,7 @@ h2 {
   position: relative;
 }
 
-h2::after {
+.top::after {
   content: "TOP";
   margin: 15px 20px;
   background-color: #ee1313;

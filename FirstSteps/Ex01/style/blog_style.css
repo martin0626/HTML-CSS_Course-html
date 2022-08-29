@@ -1,6 +1,9 @@
-body {
+article {
   font-family: sans-serif;
+  border: solid black 5px;
+  margin: 100px;
 }
+
 * {
   padding: 0px;
   margin: 0px;
@@ -20,6 +23,52 @@ body {
   font-size: 33px;
   text-transform: uppercase;
   margin: 15px 0;
+  position: relative;
+}
+
+.title::after {
+  content: "SALE";
+  background-color: red;
+  font-size: 18px;
+  color: white;
+  padding: 5px 10px;
+  letter-spacing: 5px;
+  position: absolute;
+  top: -35px;
+  left: -40px;
+}
+
+.colors div {
+  display: inline-block;
+  margin: 30px 5px;
+  padding: 15px 15px;
+}
+.black {
+  background-color: black;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.green {
+  background-color: green;
+}
+
+.brown {
+  background-color: brown;
 }
 
 .price {
@@ -31,7 +80,7 @@ body {
   font-family: cursive;
   color: #777;
   text-transform: uppercase;
-  margin-bottom: 5px;
+  margin-bottom: 15px;
 }
 
 a:hover,
