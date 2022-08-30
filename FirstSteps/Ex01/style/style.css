@@ -1,10 +1,21 @@
 body {
   position: relative;
+  border-top: #1098ad solid 8px;
+  border-width: 100%;
 }
 
-h1,
+* {
+  margin: 0;
+  padding: 0;
+}
+
 h2,
 h3 {
+  color: rgb(29, 152, 234);
+  margin-bottom: 22px;
+}
+
+h1 {
   color: rgb(29, 152, 234);
 }
 
@@ -75,6 +86,7 @@ p {
   font-size: 22px;
   font-family: sans-serif;
   line-height: 1.5;
+  margin-bottom: 15px;
 }
 
 li {
@@ -104,6 +116,7 @@ li {
 
 .main-header {
   background-color: #f7f7f7;
+  margin-bottom: 20px;
 }
 
 .like-button {
@@ -121,4 +134,16 @@ li {
   background-color: #1098ad;
   border: none;
   cursor: pointer;
+}
+
+footer {
+  margin-top: 15px;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+li:last-child {
+  margin-bottom: 20px;
 }
