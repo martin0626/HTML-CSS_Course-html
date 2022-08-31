@@ -147,3 +147,10 @@ li {
 li:last-child {
   margin-bottom: 20px;
 }
+
+/* FLEXBOX STYLE */
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
