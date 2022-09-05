@@ -45,11 +45,11 @@ article {
 
 .colors {
   display: flex;
-  gap: 10px;
+  gap: 15px;
 }
 
 .colors div {
-  margin: 30px 5px;
+  margin: 20px 0px;
   padding: 15px 15px;
 }
 .black {
@@ -92,7 +92,7 @@ article {
 
 .price-shipping {
   display: flex;
-  gap: 120px;
+  justify-content: space-between;
   align-items: center;
   margin: 20px 0px;
 }
@@ -153,4 +153,5 @@ h4 {
 .flex-content {
   display: flex;
   gap: 20px;
+  align-items: start;
 }
