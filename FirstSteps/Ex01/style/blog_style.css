@@ -39,8 +39,16 @@ article {
   left: -40px;
 }
 
+.image-section {
+  margin: 0px;
+}
+
+.colors {
+  display: flex;
+  gap: 10px;
+}
+
 .colors div {
-  display: inline-block;
   margin: 30px 5px;
   padding: 15px 15px;
 }
@@ -72,21 +80,32 @@ article {
   background-color: brown;
 }
 
+#more-info {
+  margin-top: 12px;
+  display: block;
+}
+
 .price {
   font-size: 26px;
   margin: 20px 0px;
 }
 
+.price-shipping {
+  display: flex;
+  gap: 120px;
+  align-items: center;
+  margin: 20px 0px;
+}
+
 .price-shipping p {
-  display: inline-block;
+  margin: 0px;
 }
 
 .shipping-text {
   font-family: cursive;
   color: #777;
   text-transform: uppercase;
-  margin-bottom: 15px;
-  margin-left: 70px;
+  font-size: 14px;
 }
 
 a:hover,
@@ -108,7 +127,8 @@ button {
   text-transform: uppercase;
   padding: 20px;
   width: 100%;
-  border-top: solid 5px black;
+  border: solid 5px black;
+  margin: 0px;
 }
 
 button:hover {
@@ -118,8 +138,7 @@ button:hover {
 
 .details-list {
   list-style-type: square;
-  margin-left: 50px;
-  margin-bottom: 18px;
+  margin-left: 30px;
 }
 
 h4 {
@@ -131,17 +150,7 @@ h4 {
   padding-left: 30px;
 }
 
-.price-section {
-  float: left;
-  width: 300px;
-}
-
-.details-section {
-  float: left;
-  width: 300px;
-}
-
-.image-section {
-  float: left;
-  width: 300px;
+.flex-content {
+  display: flex;
+  gap: 20px;
 }

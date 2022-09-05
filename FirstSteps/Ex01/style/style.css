@@ -116,6 +116,7 @@ li {
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
   padding: 0px 80px;
+  border-radius: 8px;
 }
 
 .main-header {
