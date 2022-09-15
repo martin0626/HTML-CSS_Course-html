@@ -1,0 +1,100 @@
+/*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+
+/* 
+COLORS
+MAIN COLOR - #087f5b
+MAIN COLOR BLUR - #099268
+TEXT COLOR - #343a40
+
+ */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ------------------------ */
+/* GENERAL STYLES */
+/* ------------------------ */
+body {
+  font-family: "Inter", sans-serif;
+  color: #343a40;
+  border-bottom: #087f5b solid 8px;
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  transform: scale(1.5);
+  border-radius: 8px;
+  box-shadow: 0 12px 24px rgb(0, 0, 0, 0.25);
+}
+
+.testimonial {
+  color: white;
+  width: 700px;
+  padding: 32px;
+  padding-left: 86px;
+  margin: 100px auto;
+  background-color: #087f5b;
+
+  display: flex;
+  align-items: center;
+  gap: 96px;
+  border-radius: 8px;
+  position: relative;
+}
+
+.testimonial-text {
+  line-height: 1.5;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 32px;
+}
+
+.testimonial-author,
+.testimonial-job {
+  color: #d5f5e3;
+  font-size: 12px;
+}
+
+.btn {
+  width: 40px;
+  height: 40px;
+  border: none;
+
+  position: absolute;
+  top: 50%;
+  border-radius: 50%;
+  box-shadow: 0 15px 24px 4px rgb(0 0 0 / 25%);
+  cursor: pointer;
+}
+
+.btn-icon {
+  width: 24px;
+  height: 24px;
+  stroke: #087f5b;
+}
+
+.btn--left {
+  left: 0;
+  transform: translate(-50%, -50%);
+}
+
+.btn--right {
+  right: 0;
+  transform: translate(50%, -50%);
+}

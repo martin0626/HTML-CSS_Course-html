@@ -27,9 +27,13 @@ body {
   font-family: "Inter", sans-serif;
   color: #343a40;
   border-bottom: #087f5b solid 8px;
-  line-height: 1;
 }
 
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
 .accordion {
   display: flex;
   flex-direction: column;
