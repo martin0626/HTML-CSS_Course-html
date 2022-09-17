@@ -92,7 +92,7 @@ body {
   row-gap: 32px;
   grid-template-columns: auto 1fr auto;
   align-items: center;
-
+  margin-bottom: 20px;
   box-shadow: 0 0 32px rgb(0 0 0 / 10%);
 }
 
