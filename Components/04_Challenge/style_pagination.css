@@ -1,0 +1,57 @@
+body {
+  margin: 0%;
+  padding: 0%;
+}
+
+.paginator {
+  width: 600px;
+  margin: 200px auto;
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+
+.number {
+  border: none;
+  font-weight: 500;
+  font-size: 18px;
+  cursor: pointer;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  justify-content: center;
+}
+
+.number {
+  padding: 8px;
+  text-align: center;
+}
+
+.number:hover {
+  background-color: #099268;
+  color: white;
+}
+
+.left--btn,
+.right--btn {
+  stroke: #099268;
+  padding: 12px;
+  background-color: white;
+  border: 2px solid #099268;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.left--btn:hover,
+.right--btn:hover {
+  background-color: #099268;
+  stroke: white;
+}
+
+.active--num {
+  background-color: #099268;
+  color: white;
+}

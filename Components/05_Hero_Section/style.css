@@ -1,0 +1,17 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+nav .container-block {
+  display: flex;
+  gap: 1058px;
+  align-items: center;
+  margin-bottom: 32px;
+  margin-top: 12px;
+}
+
+.container-block {
+  margin: 0% auto;
+  width: 1200px;
+}

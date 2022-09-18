@@ -1,0 +1,52 @@
+/*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+
+/* 
+COLORS
+MAIN COLOR - #087f5b
+MAIN COLOR BLUR - #099268
+TEXT COLOR - #343a40
+
+ */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+table {
+  width: 700px;
+  margin: 100px auto;
+  border-collapse: collapse;
+  padding: 12px;
+  font-size: 18px;
+}
+
+thead {
+  background-color: #099268;
+}
+
+td,
+th {
+  text-align: left;
+  padding: 16px 24px;
+}
+
+thead th {
+  width: 25%;
+  color: white;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #e9ecef;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f8f9fa;
+}
