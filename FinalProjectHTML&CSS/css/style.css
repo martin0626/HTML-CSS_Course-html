@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: sans-serif;
+  font-weight: 400;
+  color: #555;
+}
+
+.hero-section {
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 130rem;
+  margin: 0% auto;
+}
+
+.hero-image {
+  width: 100%;
+}
