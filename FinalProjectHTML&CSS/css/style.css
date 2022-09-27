@@ -55,10 +55,7 @@ body {
   margin-right: 1.6rem !important;
 }
 
-/* HEADER COMPONENTS */
-/******************************/
-
-.main-nav {
+s .main-nav {
   font-size: 1.8rem;
   font-weight: 500;
 }
@@ -72,6 +69,7 @@ body {
 
 .main-nav-link:link,
 .main-nav-link:visited {
+  font-size: 1.8rem;
   display: inline-block;
   font-weight: 500;
   text-decoration: none;
@@ -114,6 +112,7 @@ body {
 .hero-section {
   background-color: #fdf2ef;
   padding: 4.8rem 0;
+  margin-bottom: 9.6rem;
 }
 
 .heading-primary {
@@ -174,4 +173,87 @@ body {
 
 .delivered-text span {
   color: #cf711f;
+}
+
+/* How To Use Section */
+/******************************/
+.step-img {
+  width: 35%;
+}
+
+.step-img-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading-secondary {
+  font-size: 4.4rem;
+  line-height: 1.2;
+  margin-bottom: 9.6rem;
+  color: #333;
+  font-weight: 700;
+}
+
+.subheading {
+  display: block;
+  font-size: 2rem;
+  font-weight: 500;
+  color: #e67e22;
+  letter-spacing: 0.75px;
+  text-transform: uppercase;
+  margin-bottom: 1.6rem;
+}
+
+.section-how {
+  padding: 9.6rem 0;
+  color: #333;
+}
+
+.step-number {
+  font-size: 8.4rem;
+  color: #ddd;
+  font-weight: 700;
+  margin-bottom: 1.2rem;
+}
+
+.heading-tertiary {
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 3.2rem;
+}
+
+.step-description {
+  font-size: 1.8rem;
+  line-height: 1.8;
+}
+/* Reusable Grid */
+/******************************/
+
+.container {
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  row-gap: 9.6rem;
+  column-gap: 6.4rem;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid-center-v {
+  align-items: center;
 }
