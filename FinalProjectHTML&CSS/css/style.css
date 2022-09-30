@@ -465,3 +465,27 @@ s .main-nav {
 }
 .all-recipes {
 }
+
+/* Testimonial Section */
+/******************************/
+
+.testimonials {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.testimonial-text {
+  font-size: 1.8rem;
+  line-height: 1.5;
+  margin-bottom: 1.6rem;
+}
+
+.testimonial-name {
+  font-size: 1.8rem;
+}
+
+.testimonial-img {
+  width: 6.8rem;
+  border-radius: 50%;
+  margin-bottom: 1.6rem;
+}
