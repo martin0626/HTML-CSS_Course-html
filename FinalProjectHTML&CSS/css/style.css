@@ -337,6 +337,10 @@ s .main-nav {
   column-gap: 6.4rem;
 }
 
+.grid:not(:last-child) {
+  margin-bottom: 9.6rem;
+}
+
 .grid--2-cols {
   grid-template-columns: repeat(2, 1fr);
 }
@@ -434,10 +438,7 @@ s .main-nav {
   padding: 3.2rem 4.8rem 4.8rem 4.8rem;
 }
 
-.diets {
-}
-
-.diets .list {
+.list {
   text-decoration: none;
   list-style: none;
   display: flex;
@@ -522,4 +523,78 @@ s .main-nav {
 
 .gallery-item img:hover {
   transform: scale(1.1);
+}
+
+/* Pricing Section */
+/******************************/
+
+.section-pricing {
+  padding: 9.6rem 0;
+}
+
+.plan-header {
+  text-align: center;
+  margin-bottom: 6.4rem;
+}
+
+.plan-name {
+  font-size: 2.4rem;
+  color: #cf711f;
+  font-weight: 600;
+  margin-bottom: 4.2rem;
+  text-transform: uppercase;
+}
+.plan-price {
+  font-size: 6.4rem;
+  font-weight: 700;
+  margin-bottom: 2.4rem;
+  color: #111;
+}
+
+.plan-price span {
+  font-size: 3.2rem;
+  font-weight: 500;
+  margin-right: 1.2rem;
+}
+
+.plan-text {
+  line-height: 1.6;
+  font-size: 1.6rem;
+  color: #6f6f6f;
+}
+
+.plan-sign-up {
+  text-align: center;
+  margin-top: 6.4rem;
+}
+
+.pricing-plan {
+  width: 75%;
+}
+
+.starter-plan {
+  padding: 4.6rem;
+  justify-self: end;
+  border: solid 2px #fdf2e9;
+}
+
+.complete-plan {
+  padding: 4.8rem;
+  background-color: #fdf2e9;
+  position: relative;
+  overflow: hidden;
+}
+
+.complete-plan::after {
+  font-size: 1.8rem;
+  background-color: #ffd43b;
+  padding: 0.8rem 8rem;
+  color: #333;
+  transform: rotate(45deg);
+
+  font-weight: 700;
+  content: "Best value";
+  position: absolute;
+  top: 6%;
+  right: -19%;
 }
