@@ -87,6 +87,7 @@ strong {
   border: none;
   background-color: inherit;
   display: none;
+  z-index: 9999;
 }
 
 .nav-icon {

@@ -18,11 +18,13 @@
       <img class="logo-img" src="./img/omnifood-logo.png" alt="Omnifood logo" />
       <nav class="main-nav">
         <ul class="main-nav-list">
-          <li><a href="#" class="main-nav-link">How it works</a></li>
-          <li><a href="#" class="main-nav-link">Meals</a></li>
-          <li><a href="#" class="main-nav-link">Testimonials</a></li>
-          <li><a href="#" class="main-nav-link">Pricing</a></li>
-          <li><a href="#" class="main-nav-link nav-cta">Try for free</a></li>
+          <li><a href="#how" class="main-nav-link">How it works</a></li>
+          <li><a href="#meals" class="main-nav-link">Meals</a></li>
+          <li>
+            <a href="#testimonials" class="main-nav-link">Testimonials</a>
+          </li>
+          <li><a href="#pricing" class="main-nav-link">Pricing</a></li>
+          <li><a href="#cta" class="main-nav-link nav-cta">Try for free</a></li>
         </ul>
       </nav>
       <button id="open-close-btn-nav" class="nav-button">
@@ -31,7 +33,7 @@
       </button>
     </header>
     <main class="main">
-      <section class="hero-section">
+      <section id="hero" class="hero-section">
         <div class="hero">
           <div class="hero-text-box">
             <h1 class="heading-primary">
@@ -79,7 +81,7 @@
         </div>
       </section>
 
-      <section class="section-how">
+      <section id="how" class="section-how">
         <div class="container">
           <span class="subheading">How it works</span>
           <h2 class="heading-secondary">
@@ -147,7 +149,7 @@
         </div>
       </section>
 
-      <section class="section-meals center-text">
+      <section id="meals" class="section-meals center-text">
         <div class="container">
           <span class="subheading">Meals</span>
           <h2 class="heading-secondary">
@@ -269,7 +271,7 @@
         </div>
       </section>
 
-      <section class="section-testimonials grid grid--2-cols">
+      <section id="testimonials" class="section-testimonials grid grid--2-cols">
         <div class="testimonials-container">
           <span class="subheading">Testimonials</span>
           <h2 class="heading-secondary">Once you try it, you can't go back</h2>
@@ -403,7 +405,7 @@
         </div>
       </section>
 
-      <section class="section-pricing">
+      <section id="pricing" class="section-pricing">
         <div class="container">
           <span class="subheading">Pricing</span>
           <h2 class="heading-secondary">
@@ -510,7 +512,7 @@
           </div>
         </div>
       </section>
-      <section class="section-cta">
+      <section id="cta" class="section-cta">
         <div class="container">
           <div class="cta">
             <div class="cta-text-box">
@@ -585,7 +587,8 @@
             </li>
           </ul>
           <p class="copyright">
-            Copyright © 2027 by Omnifood, Inc. All rights reserved.
+            Copyright © <span id="year">2027</span> by Omnifood, Inc. All rights
+            reserved.
           </p>
         </div>
         <div class="address-col">
@@ -642,5 +645,6 @@
     ></script>
 
     <script type="module" src="./js/mobile_nav.js"></script>
+    <script type="module" src="./js/script.js"></script>
   </body>
 </html>
