@@ -80,7 +80,11 @@
             </div>
           </div>
           <div class="hero-image-box">
-            <img src="./img/hero.png" class="hero-image" />
+            <picture>
+              <source srcset="img/hero.webp" type="image/webp" />
+              <source srcset="img/hero-min.png" type="image/png" />
+              <img src="img/hero-min.png" class="hero-image" />
+            </picture>
           </div>
         </div>
       </section>
